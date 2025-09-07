@@ -38,7 +38,7 @@ const Skills = forwardRef((props, ref) => {
                             <p><img width = "20px" src = "CheckboxChecked.png"/> 5 years of professional work experience in an office setting.</p>
                             <p><img width = "20px" src = "CheckboxChecked.png"/> Over 10 years in customer service based roles</p>
                             <p><img width = "20px" src = "CheckboxChecked.png"/> Willing to learn</p>
-                            <p><img width = "20px" src = "CheckboxChecked.png"/> Creative</p>
+                            <p><img width = "20px" src = {`${import.meta.env.BASE_URL}CheckboxChecked.png`}"CheckboxChecked.png"/> Creative</p>
                 </div>
         </div>
         </main>
