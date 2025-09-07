@@ -1,13 +1,10 @@
 .footerWrapper{
-    position: static;
     display: flex;
     justify-content: flex-start; /*spaces between ELEMENTS (h2 and navContent)*/
     align-items: center;
-    bottom: 0px;
-    left: 0px;
     width: 100%;
-    border-top: solid 10px white;
     background-color: var(--cerulean);
+    border: solid 2px whitesmoke;
 }
 
 .footerContent {

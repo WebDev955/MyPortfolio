@@ -37,10 +37,13 @@ function App() {
 
         />
         <IntroBio ref = {bioRef}/>
-       
+        <hr/>
         <Skills ref = {skillsRef}/>
+        <hr/>
         <Certifications ref = {certRef}/>
+        <hr/>
         <Projects ref = {projRef}/>
+        
         <Footer/>
     </>
   )

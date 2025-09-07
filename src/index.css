@@ -45,10 +45,7 @@ h1 {
 
 
   @media only screen and (max-width:500px) {
-  :root {
-     background-image: linear-gradient(to bottom, #457b9d, #7e98b6, #aeb8ce, #d9dae6, #ffffff);
-    
-  }
+
 
     }
 
