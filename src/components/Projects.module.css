@@ -2,8 +2,6 @@
     padding-left: 20px;
     background-color: var(--section-color2);
     padding-bottom: 45px;
-
-
 }
 
 .projectsWrapper h1{
@@ -21,4 +19,21 @@
 
 .projectsWrapper .projects li {
 list-style-type: armenian;
+}
+
+.bingeLogImgs{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    background-color: transparent;
+    white-space: no-wrap;
+    padding: 10px ;
+    border: solid 1px white;
+    max-width: 800px;
+    border-radius: 10px;
+
+}
+.bingeLogImgs img{
+    padding: 10px ;
+ 
 }

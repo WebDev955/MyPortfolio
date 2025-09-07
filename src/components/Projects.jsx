@@ -11,7 +11,14 @@ const Projects = forwardRef((props, ref) =>{
             <div className= {styles.projects}>
                 <ul>
                     <li>
+                        <div>
                          <h2>BingeLog</h2>
+                            <div className={styles.bingeLogImgs}>
+                                <img src="public/BingeLogHome.png"/>
+                                <img src="public/BingeLogUserPg.png"/>
+                                <img src="public/BingeLogShowSearch.png"/>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h2>Random Topic Generater</h2>
