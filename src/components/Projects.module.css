@@ -1,11 +1,6 @@
 .projectsWrapper{
-    border-style: solid;
-    border-color: var(--honeydew);
     padding-left: 20px;
-    background-color: var(--berkeley-blue);
-    margin-top: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(29,53,87,0.75);
-    text-align: left;
+    background-color: var(--section-color2);
     margin-bottom: 20px;
 
 }
