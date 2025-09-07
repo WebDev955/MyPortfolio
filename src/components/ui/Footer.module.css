@@ -1,0 +1,46 @@
+.footerWrapper{
+    position: static;
+    display: flex;
+    justify-content: flex-start; /*spaces between ELEMENTS (h2 and navContent)*/
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-top: solid 10px white;
+    background-color: var(--cerulean);
+}
+
+.footerContent {
+  max-width: 1000px;
+  margin-right: 20px;
+
+}
+
+.footerContent ul {
+    display: flex;
+    Justify-content: space-between;
+    gap: 20px;
+    display: inline-block;
+
+  
+}
+.footerContent li{
+    list-style: none;
+    color: #f1faeeff;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.footerContent li p {
+    margin: 0; /* Remove default margin from the p element */
+    transition: transform 0.5s; /* Add a transition to the p for a smooth scale effect */
+}
+
+.footerContent li:hover p {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+

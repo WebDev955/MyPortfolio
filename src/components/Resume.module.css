@@ -1,0 +1,48 @@
+:root {
+/* CSS HEX */
+--red-pantone: #e63946ff;
+--honeydew: #f1faeeff;
+--non-photo-blue: #a8dadcff;
+--cerulean: #457b9dff;
+--berkeley-blue: #1d3557ff;
+}
+
+
+.resMainWrapper{
+    border-style: solid;
+    border-color: var(--honeydew);
+    padding-left: 20px;
+    background-color: var(--berkeley-blue);
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(29,53,87,0.75);
+    text-align: left;
+
+}
+
+.resMainWrapper h1{
+    text-decoration: underline;
+    color: var(--red-pantone)
+}
+
+.resMainWrapper h2, h3 {
+    color: var(--non-photo-blue)
+}
+
+.resMainWrapper p{
+    color: var(--honeydew)
+}
+
+.school{
+    font-size: larger;
+    color: var(--honeydew);
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    
+}
+
+.degree{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
