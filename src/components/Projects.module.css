@@ -1,4 +1,5 @@
 .projectsWrapper{
+    width: 100%;
     padding-left: 20px;
     background-color: var(--section-color2);
     padding-bottom: 45px;

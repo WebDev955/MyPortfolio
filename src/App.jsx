@@ -30,7 +30,6 @@ function App() {
     <>
         <NavBar 
           bioRefProp = {bioRef}
-          
           skillsRefProp = {skillsRef}
           certRefProp = {certRef}
           projRefProp = {projRef}

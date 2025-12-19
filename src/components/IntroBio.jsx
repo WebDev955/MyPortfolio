@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 //IMPORTS - Style/Images
 import styles from "./IntroBio.module.css"
 import Bttn from "./ui/Bttn"
-
+import userImage from "../assets/UserImage.png"
 
 
 
@@ -28,7 +28,7 @@ const IntroBio = forwardRef((props, ref) => {
                     </a>
                 </Bttn>
                 </p>
-                <img  src = "public\UserImage.png"/>  
+                <img  src = {userImage}/>  
              </article> 
             <div>
                 

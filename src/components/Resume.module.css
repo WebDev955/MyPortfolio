@@ -9,6 +9,7 @@
 
 
 .resMainWrapper{
+    width: 100%;
     border-style: solid;
     border-color: var(--honeydew);
     padding-left: 20px;
