@@ -3,6 +3,9 @@ import { forwardRef } from "react";
 
 //Import - Styles
 import styles from "./Projects.module.css"
+import BingeLogHome from "../assets/BingeLogHome.png"
+import BingeLogShowSearch from  "../assets/BingeLogHome.png"
+import BingeLogUserPg from  "../assets/BingeLogHome.png"
 
 const Projects = forwardRef((props, ref) =>{
     return (
@@ -14,9 +17,9 @@ const Projects = forwardRef((props, ref) =>{
                         <div>
                          <h2>BingeLog</h2>
                             <div className={styles.bingeLogImgs}>
-                                <img src="public/BingeLogHome.png"/>
-                                <img src="public/BingeLogUserPg.png"/>
-                                <img src="public/BingeLogShowSearch.png"/>
+                                <img src={BingeLogHome}/>
+                                <img src={BingeLogShowSearch}/>
+                                <img src={BingeLogUserPg}/>
                             </div>
                         </div>
                     </li>

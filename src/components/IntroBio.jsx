@@ -19,10 +19,11 @@ const IntroBio = forwardRef((props, ref) => {
             </header>   
             <article className={styles.bioContent}>
                 <p> 
-                    Upon realizing my desire for a much needed career change, I picked up web developement in the winter of 2024. I've had a casual interest in web developement for many years, but never dove into a committed course with it. FreeCodeAcademy changed that for me. It's been an exciting journey since. 
+                    Upon realizing my desire for a much needed career change, I picked up web development in the winter of 2024. I've had a casual interest in web developement for many years, but never dove into a committed course with it. freeCodeAcademy changed that for me. It's been an exciting journey since. 
                 <br/><br/>
-                    As a creative learner, I'm drawn to web developement as a means to keep my sharp and to learn something new everyday in a field that is ever changing with new techniqes.I'm actively seeking employment junior frontend developer position.                 
+                    As a creative learner, I'm drawn to web developement as a means to keep my mind sharp and to learn something new everyday in a field that is ever changing. I'm actively seeking employment junior frontend developer position.                 
                     <br/>
+       
                     <Bttn className={styles.resumeDl}>
                     <a href='/GeisingerResume.pdf' download="AustinGeisingerResume" name="Resume">Resume
                     </a>
