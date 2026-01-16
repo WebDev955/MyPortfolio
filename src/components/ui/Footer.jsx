@@ -11,7 +11,7 @@ function Footer() {
                         <p>Contact</p>
                     </li> 
                     <li>
-                        <p>LinkedIN</p>
+                        <a href="https://www.linkedin.com/in/austin-geisinger/"><p>LinkedIN</p></a>
                     </li> 
                 </ul>
             </nav>
