@@ -37,8 +37,8 @@ const Skills = forwardRef((props, ref) => {
                             <p><img width = "20px" src = {CheckBoxEmpty}/> Next.Js</p>
                             <p><img width = "20px" src = {CheckBoxEmpty}/> BootStrap</p>
                             <p><img width = "20px" src = {CheckBoxEmpty}/> SASS</p>
-                            <p><img width = "20px" src = {CheckBoxEmpty}/> An additional framekwork such as Angluar/Vue</p>
-                            <p><img width = "20px" src = {CheckBoxEmpty}/> Deeper understanding of the backend, with firm understaning of database</p>    
+                            <p><img width = "20px" src = {CheckBoxEmpty}/> Additional frameworks </p>
+                            <p><img width = "20px" src = {CheckBoxEmpty}/> Deeper understanding of the backend and databases</p>    
                 </div>
                 <div className={styles.additionalSkills}>
                     <h2>Additional Skills</h2>

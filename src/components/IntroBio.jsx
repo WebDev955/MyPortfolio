@@ -4,7 +4,9 @@ import { forwardRef } from "react";
 //IMPORTS - Style/Images
 import styles from "./IntroBio.module.css"
 import Bttn from "./ui/Bttn"
-import userImage from "../assets/UserImage.png"
+//import userImage from "../assets/UserImage.png"
+import HeadShot from "../../public/Headshot.jpg"
+import HeadShotSquare from "../../public/HeadShotSquare.jpg"
 
 
 
@@ -29,10 +31,11 @@ const IntroBio = forwardRef((props, ref) => {
                     </a>
                 </Bttn>
                 </p>
-                <img  src = {userImage}/>  
-             </article> 
+                <div className={styles.imgDiv}>
+                    <img  src = {HeadShotSquare}/>  
+                </div>
+             </article>                 
             <div>
-                
             </div>
         </section> 
     )
