@@ -1,8 +1,16 @@
 .projectsWrapper{
-    width: 100%;
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
     background-color: var(--section-color2);
     padding-bottom: 45px;
+    padding-left: 10px;
+}
+
+.projectsWrapper header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
 }
 
 .projectsWrapper h1{
@@ -10,31 +18,9 @@
     color: var(--red-pantone)
 }
 
-.projectsWrapper h2, h3 {
-    color: var(--non-photo-blue)
-}
-
-.projectsWrapper p{
-    color: var(--honeydew)
-}
-
-.projectsWrapper .projects li {
-list-style-type: armenian;
-}
-
-.bingeLogImgs{
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
-    background-color: transparent;
-    white-space: no-wrap;
-    padding: 10px ;
-    border: solid 1px white;
-    max-width: 800px;
-    border-radius: 10px;
-
-}
-.bingeLogImgs img{
-    padding: 10px ;
- 
+.projectsWrapper h2 {
+    color: var(--non-photo-blue);
+    margin-bottom: 10px;
+    border-bottom: solid var(--non-photo-blue) 3px;
+    
 }

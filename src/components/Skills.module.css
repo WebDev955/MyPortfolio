@@ -1,6 +1,6 @@
 .skillsMainWrapper {
     display: flex;
-    Flex-direction: column;
+    flex-direction: column;
     padding-left: 20px;
     background-color: var(--section-color2);
     scroll-margin-top: 70px; /* stop scrolling XXpx from top of viewport */
@@ -84,7 +84,7 @@
     display: inline-block
  }
 
-@media only screen and (max-width:430px) {    
+@media only screen and (max-width:768px) {    
     .skillsGridWrapper{
         display: grid;
         grid-template-columns: 1fr;

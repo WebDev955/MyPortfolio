@@ -1,0 +1,42 @@
+.projectWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: palevioletred;
+}
+
+.techStackLinks  {
+    display: flex;
+    flex-direction: row;
+    border: solid black 2px;
+}
+.techStackLinks ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px;
+}
+
+.techStackLinks li {
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.projectDesc {
+    padding: 20px;
+    border: solid black 2px;
+    margin: 5px;
+}
+
+.projectImgWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projectImgWrapper  img{
+   width: 200px;
+}

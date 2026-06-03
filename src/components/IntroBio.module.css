@@ -82,7 +82,7 @@
 
 }
 
-@media only screen and (max-width:430px) {    
+@media only screen and (max-width:768px) {    
     .bioMainWrapper{
         display: flex;
         flex-direction: column;
@@ -96,16 +96,12 @@
     }    
     
     .bioContent p{
-        padding-right: 50px;
-        margin-right: 20px;
         justify-content: center; 
     }
 
     .imgDiv {
-        flex-shrink: 0; 
-
-        width: 300px;
-        height: 300px;
+        width: min(70vw, 300px);
+        height: min(70vw, 300px);
         border-radius: 100%;
         overflow: hidden;          /* forces the shadow to follow the circle */
         box-shadow: 0 20px 25px rgba(255, 255, 255, 0.4);
