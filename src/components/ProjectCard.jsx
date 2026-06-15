@@ -1,25 +1,29 @@
 import { ProjectsData } from "../data/ProjectsData"
 import styles from "../components/ProjectCard.module.css"
-import { useState } from "react"
 
 export const ProjectCard = ({project, key}) => {
  
-
  return (
         <main key={key} className= {styles.projectWrapper}>
                 <section key = {project.id}>
                     <section className= {styles.techStackLinks}>
                         <ul>
-                            <li>{project.tech[0]}</li>
-                            <li>{project.tech[1]}</li>
-                            <li>{project.tech[2]}</li>
-                            <li>{project?.tech[3]}</li>
-                            <li><a>{project.gitRepo}</a></li>
-                            <li><a>{project.liveDemo}</a></li>                  
+                             {project.tech.map((tech) =>
+                                    <li>{tech}</li> 
+                                )}      
+                            <li><a href={project.gitRepo}>Repo Link</a></li>
+                            <li><a href={project.liveDemo}>Live Demo</a></li>                  
                         </ul>
                     </section>
                     <article className={styles.projectDesc}>
                         <p>{project.description}</p>
+                        <div>
+                            <ul>
+                                {project.futureFeatures.map((feature) =>
+                                    <li>{feature}</li> 
+                                )}                            
+                            </ul>
+                        </div>
                     </article>
                     <section className = {styles.projectImgWrapper}>
                         <img src={project.images[0]}/>

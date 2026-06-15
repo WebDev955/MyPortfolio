@@ -33,7 +33,6 @@ function App() {
           skillsRefProp = {skillsRef}
           certRefProp = {certRef}
           projRefProp = {projRef}
-
         />
         <IntroBio ref = {bioRef}/>
         <hr/>

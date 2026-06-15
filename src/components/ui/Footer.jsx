@@ -11,8 +11,10 @@ function Footer() {
                         <p>Contact</p>
                     </li> 
                     <li>
-                        <a href="https://www.linkedin.com/in/austin-geisinger/"><p>LinkedIN</p></a>
-                    </li> 
+                        <a href="https://www.linkedin.com/in/austin-geisinger/"><p>LinkedIN</p></a> 
+                    </li>  
+                    <li><a href="https://github.com/WebDev955"><p>GitHub</p></a></li>
+                    
                 </ul>
             </nav>
         </header>
