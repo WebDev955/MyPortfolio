@@ -19,6 +19,7 @@ export const ProjectCard = ({project, key}) => {
                         <p>{project.description}</p>
                         <div>
                             <ul>
+                                <h2>Future Features</h2>
                                 {project.futureFeatures.map((feature) =>
                                     <li>{feature}</li> 
                                 )}                            
@@ -26,8 +27,9 @@ export const ProjectCard = ({project, key}) => {
                         </div>
                     </article>
                     <section className = {styles.projectImgWrapper}>
-                        <img src={project.images[0]}/>
-                        <img src={project.images[1]}/>
+                        {project.images.map((image) =>
+                            <img src={image}/>
+                        )}
                     </section>
                 </section>
         </main>
