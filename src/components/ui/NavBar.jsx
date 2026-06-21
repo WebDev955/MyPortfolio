@@ -12,8 +12,6 @@ const scrollToSection = (ref) =>{
         ref.current.scrollIntoView({behavior: 'smooth'});
     }
 }
-
-
     return (
     <header className={styles.navWrapper}>
         <h2>Austin Geisinger</h2>

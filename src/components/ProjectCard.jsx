@@ -1,10 +1,12 @@
+import { ImageCarousel } from "./ui/ImageCarousel"
+
 import { ProjectsData } from "../data/ProjectsData"
 import styles from "../components/ProjectCard.module.css"
 
-export const ProjectCard = ({project, key}) => {
+export const ProjectCard = ({project}) => {
  
  return (
-        <main key={key} className= {styles.projectWrapper}>
+        <main key={project.id} className= {styles.projectWrapper}>
                 <section key = {project.id}>
                     <section className= {styles.techStackLinks}>
                         <ul>
@@ -26,10 +28,8 @@ export const ProjectCard = ({project, key}) => {
                             </ul>
                         </div>
                     </article>
-                    <section className = {styles.projectImgWrapper}>
-                        {project.images.map((image) =>
-                            <img src={image}/>
-                        )}
+                    <section>
+                        <ImageCarousel images = {project.images}/>
                     </section>
                 </section>
         </main>

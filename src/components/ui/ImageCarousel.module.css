@@ -1,0 +1,26 @@
+.carouselWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.navBttnLeft {
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  width: 40px;
+}
+
+.navBttnRight {
+  position: absolute;
+  right: -70px;
+  top: 50%;
+  width: 40px;
+}
+
+.projectImg {
+    width: 200px
+}

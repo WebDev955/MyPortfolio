@@ -3,24 +3,21 @@
     flex-direction: column;
     background-color: var(--section-color2);
     padding-bottom: 45px;
-    padding-left: 10px;
+   
 }
-
 .projectsWrapper header{
     display: flex;
     flex-direction: row;
     gap: 20px;
 
 }
-
 .projectsWrapper h1{
     text-decoration: underline;
     color: var(--red-pantone)
 }
-
 .projectsWrapper h2 {
     color: var(--non-photo-blue);
     margin-bottom: 10px;
     border-bottom: solid var(--non-photo-blue) 3px;
-    
+
 }
