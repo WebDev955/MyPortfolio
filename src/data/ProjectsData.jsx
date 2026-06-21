@@ -1,13 +1,19 @@
+//Images - BingeLog
 import BingeLogUserPage from "../../src/assets/BingeLogUserPg.png"
 import BingeLogSocialFeed from "../../src/assets/BingeLogSocialFeed.png"
-import BingeLogShowSearch from "../../src/assets/BingeLogShowSearch.png"
+import BingeLogSocialFeedComments from "../../src/assets/BingeLogSocialFeedComments.png"
+import BingeLogShowNotes from "../../src/assets/BingeLogShowNotes.png"
+import BingeLogShowSearchResults from "../../src/assets/BingeLogShowSearchResults.png"
+import BingeLogUserSearch from "../../src/assets/BingeLogUserSearch.png"
+
 import ShowDetails from "../../src/assets/ShowDetails.png"
-
+//Images - TaskBreaker
 import TaskBreakerArchive from "../../src/assets/TaskBreakerArchive.png"
-import TaskBreakerGoalsPg from "../../src/assets/TaskBreakerGoalsPg.png"
+import TaskBreakerGoals from "../../src/assets/TaskBreakerGoals.png"
 import TaskBreakerNotesPg from  "../../src/assets/TaskBreakerNotesPg.png"
-import TaskBreakerNotesPg2 from "../../src/assets/TaskBreakerNotesPg2.png"
-
+import TaskBreakerGoalsPgAddTask from  "../../src/assets/TaskBreakerGoalsPgAddTask.png"
+import TaskBreakerGoalsPgTasks from  "../../src/assets/TaskBreakerGoalsPgTasks.png"
+//Images - RPG
 import RPGCastleMap from "../../src/assets/RPGCastleMap.png"
 import RPGQuest from "../../src/assets/RPGQuest.png"
 import RPGQuestLog from "../../src/assets/RPGQuestLog.png"
@@ -22,7 +28,7 @@ export const ProjectsData = [
         tech: ["React", "CSS", "JS"],
         gitRepo: "https://github.com/WebDev955/BingeLog",
         liveDemo: "https://webdev955.github.io/BingeLog/",
-        images: [BingeLogUserPage, BingeLogSocialFeed, BingeLogShowSearch, ShowDetails],
+        images: [BingeLogUserPage, BingeLogShowNotes, BingeLogSocialFeed,BingeLogSocialFeedComments,BingeLogShowSearchResults, BingeLogUserSearch],
         futureFeatures:[
             "Manual status updates.", 
             "Fully functional reviews page to search and display reviews with comments.",
@@ -36,7 +42,7 @@ export const ProjectsData = [
         tech: ["React", "CSS", "JS", "TS"],
         gitRepo: "https://github.com/WebDev955/TaskBreaker",
         liveDemo: " https://webdev955.github.io/TaskBreaker/",
-        images: [TaskBreakerArchive, TaskBreakerGoalsPg, TaskBreakerNotesPg, TaskBreakerNotesPg2],
+        images: [TaskBreakerGoals, TaskBreakerGoalsPgAddTask, TaskBreakerNotesPg,TaskBreakerArchive ],
         futureFeatures:[
             "Intergrating another app into this to provide users with random topics to learn.",
             "Profile creation.",
