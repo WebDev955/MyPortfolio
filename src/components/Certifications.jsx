@@ -1,5 +1,5 @@
 //IMPORTS
-import { useRef, forwardRef } from "react";
+import {forwardRef } from "react";
 
 //Import - styles
 import styles from "./Certifications.module.css"

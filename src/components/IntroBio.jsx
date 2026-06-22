@@ -1,16 +1,11 @@
 //IMPORTS - Hooks
 import { forwardRef } from "react";
-//IMPORTS - Components 
 //IMPORTS - Style/Images
 import styles from "./IntroBio.module.css"
 import Bttn from "./ui/Bttn"
-//import userImage from "../assets/UserImage.png"
 import HeadShot from "../../public/Headshot.jpg"
 import HeadShotSquare from "../../public/HeadShotSquare.jpg"
 import resume from "../../public/AustinGeisingerResume.pdf"
-
-
-
 
 const IntroBio = forwardRef((props, ref) => {
 
@@ -26,7 +21,6 @@ const IntroBio = forwardRef((props, ref) => {
                 <br/><br/>
                     As a creative person, I'm drawn to web developement as a means to keep my mind sharp and to learn something new everyday in a field that is ever changing. I'm currently seeking employment in a junior frontend developer position.                 
                     <br/>
-       
                     <Bttn className={styles.resumeDl}>
                     <a href={resume} download="AustinGeisingerResume" name="Resume">Resume
                     </a>

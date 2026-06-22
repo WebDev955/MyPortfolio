@@ -4,7 +4,6 @@ import { forwardRef } from "react";
 //Import - Styles
 import styles from "./Resume.module.css"
 
-
 const Resume = forwardRef ((props, ref) =>{
     return (
         <main reff={ref} className={styles.resMainWrapper}>

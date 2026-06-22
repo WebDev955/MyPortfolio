@@ -1,7 +1,7 @@
 .navWrapper{
     position: fixed;
     display: flex;
-    justify-content:space-between; /*spaces between ELEMENTS (h2 and navContent)*/
+    justify-content:space-between; 
     align-items: center;
     top: 0;
     left: 0;
@@ -43,8 +43,8 @@
 }
 
 .navContent li p {
-    margin: 0; /* Remove default margin from the p element */
-    transition: transform 0.5s; /* Add a transition to the p for a smooth scale effect */
+    margin: 0; 
+    transition: transform 0.5s; 
 }
 
 .navContent li:hover p {

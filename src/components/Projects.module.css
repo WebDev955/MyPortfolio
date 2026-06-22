@@ -3,12 +3,13 @@
     flex-direction: column;
     background-color: var(--section-color2);
     padding-bottom: 45px;
-   
+
 }
 .projectsWrapper header{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding: 10px;
 
 }
 .projectsWrapper h1{
@@ -19,5 +20,6 @@
     color: var(--non-photo-blue);
     margin-bottom: 10px;
     border-bottom: solid var(--non-photo-blue) 3px;
-
 }
+
+

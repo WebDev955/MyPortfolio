@@ -5,7 +5,6 @@ import BingeLogSocialFeedComments from "../../src/assets/BingeLogSocialFeedComme
 import BingeLogShowNotes from "../../src/assets/BingeLogShowNotes.png"
 import BingeLogShowSearchResults from "../../src/assets/BingeLogShowSearchResults.png"
 import BingeLogUserSearch from "../../src/assets/BingeLogUserSearch.png"
-
 import ShowDetails from "../../src/assets/ShowDetails.png"
 //Images - TaskBreaker
 import TaskBreakerArchive from "../../src/assets/TaskBreakerArchive.png"
@@ -24,21 +23,22 @@ export const ProjectsData = [
     {
         id: "BingeLog_Project",
         title: "BingeLog",
-        description: "Bingelog is a Twitter inspired TV show tracker that includes an automatic social feed based on user updates. It's meant to be a simple, but still social app amongst friends with emphasis on avoiding spoilers.",
+        description: "BingeLog is a Twitter inspired TV show tracking app that includes an automatic social feed based on user updates. It's meant to be a simple, but still social app amongst friends with emphasis on avoiding spoilers. Each status post can become a private chat between two single users.",
         tech: ["React", "CSS", "JS"],
         gitRepo: "https://github.com/WebDev955/BingeLog",
         liveDemo: "https://webdev955.github.io/BingeLog/",
         images: [BingeLogUserPage, BingeLogShowNotes, BingeLogSocialFeed,BingeLogSocialFeedComments,BingeLogShowSearchResults, BingeLogUserSearch],
         futureFeatures:[
             "Manual status updates.", 
-            "Fully functional reviews page to search and display reviews with comments.",
-            "Properly adding friends by viewing their profile link."
+            "Reviews page to search and display reviews made by users.",
+            "Properly adding friends by viewing their profile link.",
+            "General design improvements."
         ]
     },
     {
         id: "TaskBreaker_Project",
         title: "TaskBreaker",
-        description: "TaskBreaker is meant to be a simple and encouraging app to create and accomplish goals. Create Goals that have Tasks and further breakdown Tasks into Chunks. In addtion, use a Pomodoro timer to complete your tasks. Never delete your goals! Archive them until you are ready to take them on.",
+        description: "TaskBreaker is meant to be a simple and encouraging app to create and accomplish goals. Create goals that have tasks and further breakdown tasks into chunks. A Pomodoro timer pushes a user to set time to complete tasks. Never delete your goals! Archive them until you are ready to take them on.",
         tech: ["React", "CSS", "JS", "TS"],
         gitRepo: "https://github.com/WebDev955/TaskBreaker",
         liveDemo: " https://webdev955.github.io/TaskBreaker/",
@@ -51,16 +51,19 @@ export const ProjectsData = [
     {
         id: "MagicRPG_Project",
         title: "Magic RPG",
-        description: "MagicRPG is a web app, mobile focused RPG game. A classic turn based RPG battle system with gimmick a of shifting one's element through out battle to change the tide of battle.",
+        description: "Magic RPG is a mobile focused web app RPG with inspiration from the Nintendo DS as a duel screen layout. The player interacts with NPCS to gain quests, explore map grid spaces for treasure and battles, and manages their inventory. Battles are turn based, but with a unique twist of shifting the element that players are channeling based on their chosen spell. Channeling elements gives the player advantages alongside disadvantages.",
         tech: ["React", "CSS", "JS", "TS"],
         gitRepo: "https://github.com/WebDev955/MagicRPGRemix",
         liveDemo: "https://webdev955.github.io/MagicRPGRemix/",
         images: [RPGCastleMap,RPGQuest, RPGQuestLog, RPGMonsterLog, RPGBattle],
         futureFeatures:[
+            "**This is still a large work in progress**",
             "Fine tuning the battle logic.",
-            "Access to the village, a village item shop, and an additional cave quest.", 
-            "Crafting items and spells with materials.",
+            "Fine tuning battles in general.",
             "Expanding current maps.",
+            "Access to the village, a village item shop, and an additional quest in the cave.", 
+            "Crafting items and spells with materials.",
+            "General design improvements."
         ]
     }
 ]

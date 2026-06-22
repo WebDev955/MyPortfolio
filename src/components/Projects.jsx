@@ -1,23 +1,11 @@
 //IMPORT - Hooks
 import { forwardRef, useState } from "react";
-import { Carousel, Flex } from "antd";
 import { ProjectCard } from "./ProjectCard";
 import { ProjectsData } from "../data/ProjectsData";
 //Import - Styles
 import styles from "./Projects.module.css"
-import BingeLogHome from "../assets/BingeLogHome.png"
-import BingeLogShowSearch from  "../assets/BingeLogHome.png"
-import BingeLogUserPg from  "../assets/BingeLogHome.png"
 import DownArrow from "../assets/DownArrow.png"
 
-
-const contentStyle = {
-  margin: 0,
-  width: "320px",
-  textAlign: 'center',
-  background: '#364d79',
-  
-};
 
 const Projects = forwardRef((props, ref) =>{
     
