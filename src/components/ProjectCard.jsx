@@ -10,7 +10,7 @@ export const ProjectCard = ({project}) => {
                 <section key = {project.id}>
                     <section className= {styles.techStackLinks}>
                         <ul>
-                             {project.tech.map((tech) =>
+                            {project.tech.map((tech) =>
                                     <li>{tech}</li> 
                                 )}      
                             <li><a href={project.gitRepo}>Repo Link</a></li>
