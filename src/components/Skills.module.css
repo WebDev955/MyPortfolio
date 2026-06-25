@@ -1,13 +1,33 @@
 .skillsMainWrapper {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    align-content: center;
     background-color: var(--section-color2);
-    scroll-margin-top: 70px; /* stop scrolling XXpx from top of viewport */
+    scroll-margin-top: 70px; 
     padding-bottom: 20px;
+    width: 100%;  
+}
+
+.skillsMainWrapper::before{
+  content: "";
+  font-size:50px;
+  padding-left: 25px;
+  width: 100%;
+  height: 100px;
+  background: rgb(230, 57, 71);
+    clip-path: polygon(0 0, 100% 0, 100% 39%, 0 100%);
+}
+
+
+.skillsDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .skillsMainWrapper h1{
+    padding: 20px;
     text-decoration: underline;
     color: var(--red-pantone)
 }
@@ -20,23 +40,15 @@
     color: var(--honeydew)
 }
 
-.skillsGridWrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    justify-content: flex-start;
-    column-gap: 25px;
-    row-gap: 25px;
-    margin-right: 15px;
-}
-
 .coreSkills {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: rgb(0, 43, 103);
     border: solid white 3px;
-    border-radius: 5px;
-    padding: 10px;
-
+    width: 30%;
+    margin-right: 20px;
 }
 .coreSkills li{
     display: inline-block; 
@@ -48,35 +60,26 @@
     background-color: rgb(0, 43, 103);
     border: solid white 3px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+    width: 30%;
+    margin-right: 20px;
+    font-size: larger;
 }
 
 .knowledgeIn p {
     font-size: larger;
 }
- .comingSoon {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 43, 103);
-    border: solid white 3px;
-    border-radius: 5px;
-    padding: 10px;
- }
-
- .comingSoon p {
-    font-size: larger;
-}
- .comingSoon h3 {
-   color: var(--red-pantone);
-}
-
+ 
  .additionalSkills {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 43, 103);
     border: solid white 3px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+    width: 30%;
+    margin-right: 20px;
+     font-size: larger;
  }
 
  .additionalSkills p{
@@ -85,10 +88,25 @@
  }
 
 @media only screen and (max-width:768px) {    
-    .skillsGridWrapper{
-        display: grid;
-        grid-template-columns: 1fr;
+.skillsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .coreSkills {
+        width: 100%;
+        margin-bottom: 30px;
+}
+    .knowledgeIn {
+        width: 100%;
+        margin-bottom: 30px;
     }
+
+    .additionalSkills {
+        width: 100%;
+        margin-bottom: 30px;
+ }
 
 }
 

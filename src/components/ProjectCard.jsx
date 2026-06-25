@@ -18,12 +18,14 @@ export const ProjectCard = ({project}) => {
                         </ul>
                     </section>
                     <article className={styles.projectDesc}>
-                        <p>{project.description}</p>
+                        {project.description.map((para, i) =>
+                            <p key={i}>{para}</p>
+                        )}
                         <div>
                             <ul>
                                 <h2>Future Features</h2>
                                 {project.futureFeatures.map((feature) =>
-                                    <li>{feature}</li> 
+                                    <li>{feature}</li>
                                 )}                            
                             </ul>
                         </div>

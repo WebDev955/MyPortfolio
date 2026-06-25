@@ -23,8 +23,11 @@ export const ProjectsData = [
   {
     id: "BingeLog_Project",
     title: "BingeLog",
-    description:
-      "BingeLog is a Twitter inspired TV show tracking app that includes an automatic social feed based on user updates. It's meant to be a simple, but still social app amongst friends with emphasis on avoiding spoilers. Each status post can become a private chat between two single users.",
+    description:[
+      "BingeLog is a Twitter-like social media app TV show tracking app built with auth, Redux state management, and Firebase integration. Users can create an account, search and add shows/friends, take notes on every episode, and update their binging status with auto updates.",
+      
+      "With an emphasis on avoiding spoilers, auto-updates only provide show and episode titles. Comments are strictly between a single user and a commenter, functioning as private chats on the feed post."
+  ],
     tech: ["React", "CSS", "JS"],
     gitRepo: "https://github.com/WebDev955/BingeLog",
     liveDemo: "https://webdev955.github.io/BingeLog/",
@@ -46,8 +49,9 @@ export const ProjectsData = [
   {
     id: "TaskBreaker_Project",
     title: "TaskBreaker",
-    description:
-      "TaskBreaker is meant to be a simple and encouraging app to create and accomplish goals. Create goals that have tasks and further breakdown tasks into chunks. A Pomodoro timer pushes a user to set time to complete tasks. Never delete your goals! Archive them until you are ready to take them on.",
+    description:[
+      "TaskBreaker is a simple and encouraging app to set and complete goals, without the fluff and pressure of todo apps. Goals are broken down into tasks, which can be further broken down into chunks. This breaks up large goals into smaller, less overwhelming items to complete. A pomodoro timer allows for users to get in the zone and crank out work. If a user finds a goal is too much or they are burnt out, they can archive it. Never delete your goals!"
+    ],
     tech: ["React", "CSS", "JS", "TS"],
     gitRepo: "https://github.com/WebDev955/TaskBreaker",
     liveDemo: " https://webdev955.github.io/TaskBreaker/",
@@ -65,8 +69,13 @@ export const ProjectsData = [
   {
     id: "MagicRPG_Project",
     title: "Magic RPG",
-    description:
-      "Magic RPG is a mobile focused web app RPG with inspiration from the Nintendo DS as a duel screen layout. The player interacts with NPCS to gain quests, explore map grid spaces for treasure and battles, and manages their inventory. Battles are turn based, but with a unique twist of shifting the element that players are channeling based on their chosen spell. Channeling elements gives the player advantages alongside disadvantages.",
+    description:[
+      "Magic RPG is mobile-first web app built around a duel-screen display inspired by the Nintendo DS. The UI is split between a bottom event grid-based map with grid events populating a top screen component.",
+      
+      "Players can accept quests from NPCs, buy and equip items, and partake in turn based battles with a unique mechanic where spells can change ones channeled element, opening up strategic decisions mid-battle.",
+      
+      "Game progress is managed by a global React context that is continuously updated based on player interactions—all state managed entirely on the frontend.",
+    ],
     tech: ["React", "CSS", "JS", "TS"],
     gitRepo: "https://github.com/WebDev955/MagicRPGRemix",
     liveDemo: "https://webdev955.github.io/MagicRPGRemix/",

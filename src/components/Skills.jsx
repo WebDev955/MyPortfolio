@@ -13,7 +13,7 @@ const Skills = forwardRef((props, ref) => {
   return (
     <main ref={ref} className={styles.skillsMainWrapper}>
       <h1>Skill Set</h1>
-      <div className={styles.skillsGridWrapper}>
+      <div className={styles.skillsDiv}>
         <div className={styles.coreSkills}>
           <h2>Core Understanding</h2>
           <br />
@@ -44,30 +44,6 @@ const Skills = forwardRef((props, ref) => {
             <img width="20px" src={CheckBoxChecked} /> GitHub / Version Control
           </p>
         </div>
-        <div className={styles.comingSoon}>
-          <h2>Coming Soon</h2>
-          <h3>
-            While I continue to master React, I will continue
-            to learn more.
-          </h3>
-          <br />
-          <p>
-            <img width="20px" src={CheckBoxEmpty} /> Next.Js
-          </p>
-          <p>
-            <img width="20px" src={CheckBoxEmpty} /> BootStrap
-          </p>
-          <p>
-            <img width="20px" src={CheckBoxEmpty} /> SASS
-          </p>
-          <p>
-            <img width="20px" src={CheckBoxEmpty} /> Additional frameworks{" "}
-          </p>
-          <p>
-            <img width="20px" src={CheckBoxEmpty} /> Deeper understanding of the
-            backend and databases
-          </p>
-        </div>
         <div className={styles.additionalSkills}>
           <h2>Additional Skills</h2>
           <p>
@@ -85,7 +61,7 @@ const Skills = forwardRef((props, ref) => {
             <img width="20px" src={CheckBoxChecked} /> Creative
           </p>
         </div>
-      </div>
+     </div>
     </main>
   );
 });

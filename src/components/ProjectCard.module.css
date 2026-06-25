@@ -53,6 +53,10 @@
     margin: 5px;
 }
 
+.projectDesc p {
+    margin-bottom: 10px;
+}
+
 .projectDesc ul {
     padding: 15px;
 }

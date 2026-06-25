@@ -21,7 +21,7 @@ const IntroBio = forwardRef((props, ref) => {
         <p>
           Upon realizing my desire for a much needed career change, I picked up
           web development in the winter of 2024. I had a casual interest in web
-          development for many years, but never dove into a committed course. freeCodeAcademy changed that for me. It's been an exciting
+          development for many years, but never dove into a committed course. freeCodeCamp changed that for me. It's been an exciting
           journey since.
           <br />
           <br />
