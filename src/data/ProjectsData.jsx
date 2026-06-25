@@ -24,7 +24,7 @@ export const ProjectsData = [
     id: "BingeLog_Project",
     title: "BingeLog",
     description:[
-      "BingeLog is a Twitter-like social media app TV show tracking app built with auth, Redux state management, and Firebase integration. Users can create an account, search and add shows/friends, take notes on every episode, and update their binging status with auto updates.",
+      "BingeLog is a Twitter-like TV show tracking app built with auth, Redux state management, and Firebase integration. Users can create an account, search and add shows/friends, take notes on every episode, and update their binging status with auto updates.",
       
       "With an emphasis on avoiding spoilers, auto-updates only provide show and episode titles. Comments are strictly between a single user and a commenter, functioning as private chats on the feed post."
   ],
