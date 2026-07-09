@@ -3,8 +3,6 @@
     flex-direction: column;
     background-color: var(--section-color2);
     padding-bottom: 45px;
-
-
 }
 .projectsWrapper::before{
   content: "";
@@ -28,7 +26,6 @@
 .projectsWrapper h2 {
     color: var(--non-photo-blue);
     margin-bottom: 10px;
-    border-bottom: solid var(--non-photo-blue) 3px;
 }
 
 

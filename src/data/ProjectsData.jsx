@@ -13,11 +13,14 @@ import TaskBreakerNotesPg from "../../src/assets/TaskBreakerNotesPg.png";
 import TaskBreakerGoalsPgAddTask from "../../src/assets/TaskBreakerGoalsPgAddTask.png";
 import TaskBreakerGoalsPgTasks from "../../src/assets/TaskBreakerGoalsPgTasks.png";
 //Images - RPG
-import RPGCastleMap from "../../src/assets/RPGCastleMap.png";
-import RPGQuest from "../../src/assets/RPGQuest.png";
-import RPGQuestLog from "../../src/assets/RPGQuestLog.png";
-import RPGMonsterLog from "../../src/assets/RPGMonsterLog.png";
-import RPGBattle from "../../src/assets/RPGBattle.png";
+import RpgTitle from "../../src/assets/MagicRPG-Title.webp";
+import RpgMainScreen from "../../src/assets/MagicRPG-MainScreen.webp";
+import RpgNPC from "../../src/assets/MagicRPG-NPC.webp";
+import RpgMainMenu from "../../src/assets/MagicRPG-MainMenu.webp";
+import RpgBag from "../../src/assets/MagicRPG-Bag.webp";
+import RpgQuestLog from "../../src/assets/MagicRPG-QuestLog.webp";
+import RpgMonsterLog from "../../src/assets/MagicRPG-MonsterLog.webp";
+import RpgBattle from "../../src/assets/MagicRPG-Battle.webp";
 
 export const ProjectsData = [
   {
@@ -79,7 +82,16 @@ export const ProjectsData = [
     tech: ["React", "CSS", "JS", "TS"],
     gitRepo: "https://github.com/WebDev955/MagicRPGRemix",
     liveDemo: "https://webdev955.github.io/MagicRPGRemix/",
-    images: [RPGCastleMap, RPGQuest, RPGQuestLog, RPGMonsterLog, RPGBattle],
+    images: [
+      RpgTitle,
+      RpgMainScreen,
+      RpgNPC,
+      RpgMainMenu,
+      RpgBag,
+      RpgQuestLog,
+      RpgMonsterLog,
+      RpgBattle,
+    ],
     futureFeatures: [
       "**This is still a large work in progress**",
       "Fine tuning the battle logic.",
