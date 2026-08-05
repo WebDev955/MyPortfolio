@@ -1,11 +1,12 @@
 //Images - BingeLog
-import BingeLogUserPage from "../../src/assets/BingeLogUserPg.png";
-import BingeLogSocialFeed from "../../src/assets/BingeLogSocialFeed.png";
-import BingeLogSocialFeedComments from "../../src/assets/BingeLogSocialFeedComments.png";
-import BingeLogShowNotes from "../../src/assets/BingeLogShowNotes.png";
-import BingeLogShowSearchResults from "../../src/assets/BingeLogShowSearchResults.png";
-import BingeLogUserSearch from "../../src/assets/BingeLogUserSearch.png";
-import ShowDetails from "../../src/assets/ShowDetails.png";
+import BingeLogUserPage from "../../src/assets/BingeLogUserPg.webp";
+import BingeLogUserSearch from "../../src/assets/BingeLogUserSearch.webp";
+import BingeLogSocialFeed from "../../src/assets/BingeLogSocialFeed.webp";
+import BingeLogSocialFeedComments from "../../src/assets/BingeLogSocialFeedComments.webp";
+import BingeLogShowSearch from "../../src/assets/BingeLogShowSearch.webp";
+import BingeLogShowsSaved from "../../src/assets/BingeLogShowsSaved.webp";
+import BingeLogShowsSavedEpisodeList from "../../src/assets/BingeLogShowsSaved_EpisodeList.webp";
+import BingeLogShowsSavedEpisodeNotes from "../../src/assets/BingeLogShowsSaved_EpisodeNotes.webp";
 //Images - TaskBreaker
 import TaskBreakerArchive from "../../src/assets/TaskBreakerArchive.png";
 import TaskBreakerGoals from "../../src/assets/TaskBreakerGoals.png";
@@ -35,18 +36,19 @@ export const ProjectsData = [
     gitRepo: "https://github.com/WebDev955/BingeLog",
     liveDemo: "https://webdev955.github.io/BingeLog/",
     images: [
-      BingeLogUserPage,
-      BingeLogShowNotes,
+      BingeLogUserPage, 
+      BingeLogShowsSaved,
+      BingeLogShowsSavedEpisodeList,
+      BingeLogShowsSavedEpisodeNotes,
+      BingeLogUserSearch,
       BingeLogSocialFeed,
       BingeLogSocialFeedComments,
-      BingeLogShowSearchResults,
-      BingeLogUserSearch,
+      BingeLogShowSearch,
     ],
     futureFeatures: [
       "Manual status updates.",
       "Reviews page to search and display reviews made by users.",
       "Properly adding friends by viewing their profile link.",
-      "General design improvements.",
     ],
   },
   {

@@ -30,6 +30,7 @@ const IntroBio = forwardRef((props, ref) => {
           ever changing. I'm currently seeking employment in a junior frontend
           developer position.
           <br />
+          <br />
           <Bttn className={styles.resumeDl}>
             <a href={resume} download="AustinGeisingerResume" name="Resume">
               Resume
