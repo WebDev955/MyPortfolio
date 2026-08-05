@@ -8,11 +8,12 @@ import BingeLogShowsSaved from "../../src/assets/BingeLogShowsSaved.webp";
 import BingeLogShowsSavedEpisodeList from "../../src/assets/BingeLogShowsSaved_EpisodeList.webp";
 import BingeLogShowsSavedEpisodeNotes from "../../src/assets/BingeLogShowsSaved_EpisodeNotes.webp";
 //Images - TaskBreaker
-import TaskBreakerArchive from "../../src/assets/TaskBreakerArchive.png";
-import TaskBreakerGoals from "../../src/assets/TaskBreakerGoals.png";
-import TaskBreakerNotesPg from "../../src/assets/TaskBreakerNotesPg.png";
-import TaskBreakerGoalsPgAddTask from "../../src/assets/TaskBreakerGoalsPgAddTask.png";
-import TaskBreakerGoalsPgTasks from "../../src/assets/TaskBreakerGoalsPgTasks.png";
+import TaskBreakerGoals from "../../src/assets/TaskBreakerGoals.webp";
+import TaskBreakerAddGoal from "../../src/assets/TaskBreakerAddGoal.webp";
+import TaskBreakerTaskView from "../../src/assets/TaskBreaker_TaskView.webp";
+import TaskBreakerNotebook from "../../src/assets/TaskBreaker_Notebook.webp";
+import TaskBreakerPomodoro from "../../src/assets/TaskBreaker_Pomodoro.webp";
+import TaskBreakerArchive from "../../src/assets/TaskBreaker_Archive.webp";
 //Images - RPG
 import RpgTitle from "../../src/assets/MagicRPG-Title.webp";
 import RpgMainScreen from "../../src/assets/MagicRPG-MainScreen.webp";
@@ -62,8 +63,10 @@ export const ProjectsData = [
     liveDemo: " https://webdev955.github.io/TaskBreaker/",
     images: [
       TaskBreakerGoals,
-      TaskBreakerGoalsPgAddTask,
-      TaskBreakerNotesPg,
+      TaskBreakerAddGoal,
+      TaskBreakerTaskView,
+      TaskBreakerNotebook,
+      TaskBreakerPomodoro,
       TaskBreakerArchive,
     ],
     futureFeatures: [
