@@ -12,6 +12,7 @@ import CheckBoxEmpty from "../assets/CheckBoxEmpty.png";
 const Skills = forwardRef((props, ref) => {
   return (
     <main ref={ref} className={styles.skillsMainWrapper}>
+      <div className={styles.skillsContent}>
       <h1>Skill Set</h1>
       <div className={styles.skillsDiv}>
         <div className={styles.coreSkills}>
@@ -62,6 +63,7 @@ const Skills = forwardRef((props, ref) => {
           </p>
         </div>
      </div>
+      </div>
     </main>
   );
 });

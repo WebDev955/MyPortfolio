@@ -26,3 +26,23 @@
 .projectImg {
     width: 250px;
 }
+
+@media only screen and (min-width: 769px) {
+    .carouselWrapper {
+        gap: 20px;
+    }
+
+    .navBttnLeft {
+        left: -75px;
+        width: 48px;
+    }
+
+    .navBttnRight {
+        right: -75px;
+        width: 48px;
+    }
+
+    .projectImg {
+        width: 380px;
+    }
+}

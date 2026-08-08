@@ -3,21 +3,31 @@
     flex-direction: column;
     align-content: center;
     background-color: var(--section-color2);
-    scroll-margin-top: 70px; 
+    scroll-margin-top: 70px;
     padding-bottom: 20px;
-    width: 100%;  
+    width: 100%;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
 }
 
 .skillsMainWrapper::before{
   content: "";
-  font-size:50px;
+  font-size: 3.125rem;
   padding-left: 25px;
   width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 100px;
   background: rgb(230, 57, 71);
     clip-path: polygon(0 0, 100% 0, 100% 39%, 0 100%);
 }
 
+
+.skillsContent {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 .skillsDiv {
     padding: 20px;

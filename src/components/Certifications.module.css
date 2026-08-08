@@ -2,8 +2,8 @@
     width: 100%;
     display: flex;
     Flex-direction: column;
-    border-top-style: solid white 1px;
-    border-color: var(--honeydew);
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
     background-color: var(--berkeley-blue);
     text-align: left;
     padding-bottom: 20px;
@@ -12,11 +12,16 @@
 .certMainWrapper::before{
   content: "";
   width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 100px;
   background: rgb(230, 57, 71);
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 18%);
 }
 .certs {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     padding: 20px;
 }
 .certs h1{

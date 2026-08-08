@@ -3,14 +3,23 @@
     flex-direction: column;
     background-color: var(--section-color2);
     padding-bottom: 45px;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
 }
 .projectsWrapper::before{
   content: "";
   width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 100px;
   background: rgb(230, 57, 71);
  clip-path: polygon(0 0, 100% 0, 100% 36%, 0 86%);
 
+}
+.projectsContent {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .projectsWrapper header{
     display: flex;

@@ -15,7 +15,7 @@ const Projects = forwardRef((props, ref) => {
 
   return (
     <div ref={ref} className={styles.projectsWrapper}>
-      <main className = {styles}>
+      <main className={styles.projectsContent}>
         <h1>Projects</h1>
         {ProjectsData.map((project) => (
           <div key={project.id}>
